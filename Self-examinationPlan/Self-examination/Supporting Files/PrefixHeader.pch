@@ -1,0 +1,36 @@
+//
+//  PrefixHeader.pch
+//  Self-examination
+//
+//  Created by milk on 2017/6/22.
+//  Copyright © 2017年 milk. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#define kTitleWidth             [UIScreen mainScreen].bounds.size.width - 75
+#define kTitleColor             [UIColor colorWithRed:1 green:0 blue:0 alpha:0.6]
+#define kDateHeight             30
+
+#define kScreenWidth            [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight            [UIScreen mainScreen].bounds.size.height
+
+#define kColorRGB(r, g, b)      [UIColor colorWithRed:r / 255.0 green:g / 255.0 blue:b / 255.0 alpha:1.0]
+#define kColorAlone(c)          [UIColor colorWithRed:c / 255.0 green:c / 255.0 blue:c / 255.0 alpha:1.0]
+
+#define WEAKSELF                __weak typeof(self) weakSelf = self;
+
+#define NSDocumentPath          NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject
+#define NSDocumentSQLPath       [NSString stringWithFormat:@"%@/SQL/", NSDocumentPath]
+#define NSDocumentFilePath      [NSString stringWithFormat:@"%@/File/", NSDocumentPath]
+#define NSDocumentInboxPath      [NSString stringWithFormat:@"%@/Inbox/", NSDocumentPath]
+
+#define UIImageName(name)       [UIImage imageNamed:name]
+
+#define ICON_TESTPAPER          @"icon_testPaper.png"
+#define ICON_MINDMAPPING        @"icon_mindMapping.png"
+
+#endif /* PrefixHeader_pch */

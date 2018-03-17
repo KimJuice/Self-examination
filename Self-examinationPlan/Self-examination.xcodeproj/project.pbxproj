@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2454F1501EFBB31B00E8C7B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454F14F1EFBB31B00E8C7B0 /* main.m */; };
+		2454F1531EFBB31B00E8C7B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454F1521EFBB31B00E8C7B0 /* AppDelegate.m */; };
+		2454F1591EFBB31B00E8C7B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454F1571EFBB31B00E8C7B0 /* Main.storyboard */; };
+		2454F15B1EFBB31B00E8C7B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2454F15A1EFBB31B00E8C7B0 /* Assets.xcassets */; };
+		2454F15E1EFBB31B00E8C7B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2454F15C1EFBB31B00E8C7B0 /* LaunchScreen.storyboard */; };
+		2454F1711EFBD3CE00E8C7B0 /* btn_normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454F16F1EFBD3CE00E8C7B0 /* btn_normal.png */; };
+		2454F1721EFBD3CE00E8C7B0 /* btn_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 2454F1701EFBD3CE00E8C7B0 /* btn_selected.png */; };
+		2454F1791EFBE17F00E8C7B0 /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2454F1781EFBE17F00E8C7B0 /* NSDate+Extension.m */; };
+		24BFE20C1EFF98510036445F /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24BFE20B1EFF98510036445F /* NSString+Extension.m */; };
+		24BFE21A1F0008900036445F /* launchScreenImg.png in Resources */ = {isa = PBXBuildFile; fileRef = 24BFE2191F0008900036445F /* launchScreenImg.png */; };
+		24FB6E031F04FCE600AB5CF4 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FB6E021F04FCE600AB5CF4 /* icon.png */; };
+		24FB6E0E1F04FD3100AB5CF4 /* KIMPlanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E061F04FD3100AB5CF4 /* KIMPlanCell.m */; };
+		24FB6E0F1F04FD3100AB5CF4 /* KIMPlanController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E081F04FD3100AB5CF4 /* KIMPlanController.m */; };
+		24FB6E101F04FD3100AB5CF4 /* KIMPlanModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E0A1F04FD3100AB5CF4 /* KIMPlanModel.m */; };
+		24FB6E111F04FD3100AB5CF4 /* KIMSqlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E0D1F04FD3100AB5CF4 /* KIMSqlManager.m */; };
+		24FB6E151F04FE9B00AB5CF4 /* KIMTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E141F04FE9B00AB5CF4 /* KIMTabBarController.m */; };
+		24FB6E191F0503D100AB5CF4 /* KIMReadFileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E181F0503D100AB5CF4 /* KIMReadFileController.m */; };
+		24FB6E1C1F0504AB00AB5CF4 /* KIMBaseRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E1B1F0504AB00AB5CF4 /* KIMBaseRootController.m */; };
+		24FB6E1E1F050D7A00AB5CF4 /* icon_testPaper.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FB6E1D1F050D7A00AB5CF4 /* icon_testPaper.png */; };
+		24FB6E201F050DA000AB5CF4 /* icon_mindMapping.png in Resources */ = {isa = PBXBuildFile; fileRef = 24FB6E1F1F050DA000AB5CF4 /* icon_mindMapping.png */; };
+		24FB6E251F050F0300AB5CF4 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E241F050F0300AB5CF4 /* UIImage+Extension.m */; };
+		24FB6E281F05103B00AB5CF4 /* KIMReadFileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E271F05103B00AB5CF4 /* KIMReadFileCell.m */; };
+		24FB6E2B1F0510F200AB5CF4 /* KIMReadFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E2A1F0510F200AB5CF4 /* KIMReadFileModel.m */; };
+		24FB6E2E1F0523ED00AB5CF4 /* UIAlertController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E2D1F0523ED00AB5CF4 /* UIAlertController+Extension.m */; };
+		24FB6E311F05335100AB5CF4 /* KIMFileInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24FB6E301F05335100AB5CF4 /* KIMFileInfoController.m */; };
+		5ED2CB4E66C2AE78D7965AF4 /* libPods-Self-examination.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF36B7EF234225F2AD86B876 /* libPods-Self-examination.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2454F14B1EFBB31B00E8C7B0 /* Self-examination.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Self-examination.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2454F14F1EFBB31B00E8C7B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2454F1511EFBB31B00E8C7B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2454F1521EFBB31B00E8C7B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2454F1581EFBB31B00E8C7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2454F15A1EFBB31B00E8C7B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2454F15D1EFBB31B00E8C7B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2454F15F1EFBB31B00E8C7B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2454F1681EFBBE7A00E8C7B0 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2454F16F1EFBD3CE00E8C7B0 /* btn_normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_normal.png; sourceTree = "<group>"; };
+		2454F1701EFBD3CE00E8C7B0 /* btn_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_selected.png; sourceTree = "<group>"; };
+		2454F1771EFBE17F00E8C7B0 /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		2454F1781EFBE17F00E8C7B0 /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		24BFE20A1EFF98510036445F /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		24BFE20B1EFF98510036445F /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		24BFE2191F0008900036445F /* launchScreenImg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchScreenImg.png; sourceTree = "<group>"; };
+		24FB6E021F04FCE600AB5CF4 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		24FB6E051F04FD3100AB5CF4 /* KIMPlanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMPlanCell.h; sourceTree = "<group>"; };
+		24FB6E061F04FD3100AB5CF4 /* KIMPlanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMPlanCell.m; sourceTree = "<group>"; };
+		24FB6E071F04FD3100AB5CF4 /* KIMPlanController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMPlanController.h; sourceTree = "<group>"; };
+		24FB6E081F04FD3100AB5CF4 /* KIMPlanController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMPlanController.m; sourceTree = "<group>"; };
+		24FB6E091F04FD3100AB5CF4 /* KIMPlanModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMPlanModel.h; sourceTree = "<group>"; };
+		24FB6E0A1F04FD3100AB5CF4 /* KIMPlanModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMPlanModel.m; sourceTree = "<group>"; };
+		24FB6E0C1F04FD3100AB5CF4 /* KIMSqlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMSqlManager.h; sourceTree = "<group>"; };
+		24FB6E0D1F04FD3100AB5CF4 /* KIMSqlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMSqlManager.m; sourceTree = "<group>"; };
+		24FB6E131F04FE9B00AB5CF4 /* KIMTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMTabBarController.h; sourceTree = "<group>"; };
+		24FB6E141F04FE9B00AB5CF4 /* KIMTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMTabBarController.m; sourceTree = "<group>"; };
+		24FB6E171F0503D100AB5CF4 /* KIMReadFileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMReadFileController.h; sourceTree = "<group>"; };
+		24FB6E181F0503D100AB5CF4 /* KIMReadFileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMReadFileController.m; sourceTree = "<group>"; };
+		24FB6E1A1F0504AB00AB5CF4 /* KIMBaseRootController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMBaseRootController.h; sourceTree = "<group>"; };
+		24FB6E1B1F0504AB00AB5CF4 /* KIMBaseRootController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMBaseRootController.m; sourceTree = "<group>"; };
+		24FB6E1D1F050D7A00AB5CF4 /* icon_testPaper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_testPaper.png; sourceTree = "<group>"; };
+		24FB6E1F1F050DA000AB5CF4 /* icon_mindMapping.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_mindMapping.png; sourceTree = "<group>"; };
+		24FB6E231F050F0300AB5CF4 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		24FB6E241F050F0300AB5CF4 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		24FB6E261F05103B00AB5CF4 /* KIMReadFileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMReadFileCell.h; sourceTree = "<group>"; };
+		24FB6E271F05103B00AB5CF4 /* KIMReadFileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMReadFileCell.m; sourceTree = "<group>"; };
+		24FB6E291F0510F200AB5CF4 /* KIMReadFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMReadFileModel.h; sourceTree = "<group>"; };
+		24FB6E2A1F0510F200AB5CF4 /* KIMReadFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMReadFileModel.m; sourceTree = "<group>"; };
+		24FB6E2C1F0523ED00AB5CF4 /* UIAlertController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Extension.h"; sourceTree = "<group>"; };
+		24FB6E2D1F0523ED00AB5CF4 /* UIAlertController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Extension.m"; sourceTree = "<group>"; };
+		24FB6E2F1F05335100AB5CF4 /* KIMFileInfoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIMFileInfoController.h; sourceTree = "<group>"; };
+		24FB6E301F05335100AB5CF4 /* KIMFileInfoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIMFileInfoController.m; sourceTree = "<group>"; };
+		98953C95587AE1060AA77C06 /* Pods-Self-examination.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self-examination.release.xcconfig"; path = "Pods/Target Support Files/Pods-Self-examination/Pods-Self-examination.release.xcconfig"; sourceTree = "<group>"; };
+		B1D1EC386BA7686C397597ED /* Pods-Self-examination.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Self-examination.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Self-examination/Pods-Self-examination.debug.xcconfig"; sourceTree = "<group>"; };
+		FF36B7EF234225F2AD86B876 /* libPods-Self-examination.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Self-examination.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2454F1481EFBB31B00E8C7B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ED2CB4E66C2AE78D7965AF4 /* libPods-Self-examination.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		24110BE0205CD8F700F74E79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2454F1571EFBB31B00E8C7B0 /* Main.storyboard */,
+				2454F15A1EFBB31B00E8C7B0 /* Assets.xcassets */,
+				2454F15C1EFBB31B00E8C7B0 /* LaunchScreen.storyboard */,
+				2454F15F1EFBB31B00E8C7B0 /* Info.plist */,
+				2454F14F1EFBB31B00E8C7B0 /* main.m */,
+				2454F1681EFBBE7A00E8C7B0 /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2454F1421EFBB31B00E8C7B0 = {
+			isa = PBXGroup;
+			children = (
+				2454F14D1EFBB31B00E8C7B0 /* Self-examination */,
+				2454F1761EFBE17F00E8C7B0 /* Category */,
+				2454F16E1EFBD3CE00E8C7B0 /* Image */,
+				2454F14C1EFBB31B00E8C7B0 /* Products */,
+				28D8075FECF9CDF4F324A3BD /* Pods */,
+				4B97AF5D844D9AF669028F46 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2454F14C1EFBB31B00E8C7B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2454F14B1EFBB31B00E8C7B0 /* Self-examination.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2454F14D1EFBB31B00E8C7B0 /* Self-examination */ = {
+			isa = PBXGroup;
+			children = (
+				2454F1511EFBB31B00E8C7B0 /* AppDelegate.h */,
+				2454F1521EFBB31B00E8C7B0 /* AppDelegate.m */,
+				24FB6E121F04FE1300AB5CF4 /* Base */,
+				24FB6E161F0503AF00AB5CF4 /* ReadFile */,
+				24FB6E041F04FD3100AB5CF4 /* Plan */,
+				24FB6E0B1F04FD3100AB5CF4 /* SQL */,
+				24110BE0205CD8F700F74E79 /* Supporting Files */,
+			);
+			path = "Self-examination";
+			sourceTree = "<group>";
+		};
+		2454F16E1EFBD3CE00E8C7B0 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				24FB6E021F04FCE600AB5CF4 /* icon.png */,
+				24FB6E1F1F050DA000AB5CF4 /* icon_mindMapping.png */,
+				24FB6E1D1F050D7A00AB5CF4 /* icon_testPaper.png */,
+				24BFE2191F0008900036445F /* launchScreenImg.png */,
+				2454F16F1EFBD3CE00E8C7B0 /* btn_normal.png */,
+				2454F1701EFBD3CE00E8C7B0 /* btn_selected.png */,
+			);
+			name = Image;
+			path = "Self-examination/Image";
+			sourceTree = "<group>";
+		};
+		2454F1761EFBE17F00E8C7B0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				24FB6E2C1F0523ED00AB5CF4 /* UIAlertController+Extension.h */,
+				24FB6E2D1F0523ED00AB5CF4 /* UIAlertController+Extension.m */,
+				2454F1771EFBE17F00E8C7B0 /* NSDate+Extension.h */,
+				2454F1781EFBE17F00E8C7B0 /* NSDate+Extension.m */,
+				24BFE20A1EFF98510036445F /* NSString+Extension.h */,
+				24BFE20B1EFF98510036445F /* NSString+Extension.m */,
+				24FB6E231F050F0300AB5CF4 /* UIImage+Extension.h */,
+				24FB6E241F050F0300AB5CF4 /* UIImage+Extension.m */,
+			);
+			name = Category;
+			path = "Self-examination/Category";
+			sourceTree = "<group>";
+		};
+		24FB6E041F04FD3100AB5CF4 /* Plan */ = {
+			isa = PBXGroup;
+			children = (
+				24FB6E071F04FD3100AB5CF4 /* KIMPlanController.h */,
+				24FB6E081F04FD3100AB5CF4 /* KIMPlanController.m */,
+				24FB6E091F04FD3100AB5CF4 /* KIMPlanModel.h */,
+				24FB6E0A1F04FD3100AB5CF4 /* KIMPlanModel.m */,
+				24FB6E051F04FD3100AB5CF4 /* KIMPlanCell.h */,
+				24FB6E061F04FD3100AB5CF4 /* KIMPlanCell.m */,
+			);
+			path = Plan;
+			sourceTree = "<group>";
+		};
+		24FB6E0B1F04FD3100AB5CF4 /* SQL */ = {
+			isa = PBXGroup;
+			children = (
+				24FB6E0C1F04FD3100AB5CF4 /* KIMSqlManager.h */,
+				24FB6E0D1F04FD3100AB5CF4 /* KIMSqlManager.m */,
+			);
+			path = SQL;
+			sourceTree = "<group>";
+		};
+		24FB6E121F04FE1300AB5CF4 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				24FB6E131F04FE9B00AB5CF4 /* KIMTabBarController.h */,
+				24FB6E141F04FE9B00AB5CF4 /* KIMTabBarController.m */,
+				24FB6E1A1F0504AB00AB5CF4 /* KIMBaseRootController.h */,
+				24FB6E1B1F0504AB00AB5CF4 /* KIMBaseRootController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		24FB6E161F0503AF00AB5CF4 /* ReadFile */ = {
+			isa = PBXGroup;
+			children = (
+				24FB6E171F0503D100AB5CF4 /* KIMReadFileController.h */,
+				24FB6E181F0503D100AB5CF4 /* KIMReadFileController.m */,
+				24FB6E261F05103B00AB5CF4 /* KIMReadFileCell.h */,
+				24FB6E271F05103B00AB5CF4 /* KIMReadFileCell.m */,
+				24FB6E291F0510F200AB5CF4 /* KIMReadFileModel.h */,
+				24FB6E2A1F0510F200AB5CF4 /* KIMReadFileModel.m */,
+				24FB6E2F1F05335100AB5CF4 /* KIMFileInfoController.h */,
+				24FB6E301F05335100AB5CF4 /* KIMFileInfoController.m */,
+			);
+			path = ReadFile;
+			sourceTree = "<group>";
+		};
+		28D8075FECF9CDF4F324A3BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1D1EC386BA7686C397597ED /* Pods-Self-examination.debug.xcconfig */,
+				98953C95587AE1060AA77C06 /* Pods-Self-examination.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4B97AF5D844D9AF669028F46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF36B7EF234225F2AD86B876 /* libPods-Self-examination.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2454F14A1EFBB31B00E8C7B0 /* Self-examination */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2454F1621EFBB31B00E8C7B0 /* Build configuration list for PBXNativeTarget "Self-examination" */;
+			buildPhases = (
+				3755A55A26B34AA87EEBE5AB /* [CP] Check Pods Manifest.lock */,
+				2454F1471EFBB31B00E8C7B0 /* Sources */,
+				2454F1481EFBB31B00E8C7B0 /* Frameworks */,
+				2454F1491EFBB31B00E8C7B0 /* Resources */,
+				D3EB9B040AB775E554A6AF36 /* [CP] Embed Pods Frameworks */,
+				DE5E4A7FC8CC6BBB1F88830F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Self-examination";
+			productName = "Self-examination";
+			productReference = 2454F14B1EFBB31B00E8C7B0 /* Self-examination.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2454F1431EFBB31B00E8C7B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KIM;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = milk;
+				TargetAttributes = {
+					2454F14A1EFBB31B00E8C7B0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = X963RR2PZ3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2454F1461EFBB31B00E8C7B0 /* Build configuration list for PBXProject "Self-examination" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2454F1421EFBB31B00E8C7B0;
+			productRefGroup = 2454F14C1EFBB31B00E8C7B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2454F14A1EFBB31B00E8C7B0 /* Self-examination */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2454F1491EFBB31B00E8C7B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2454F1711EFBD3CE00E8C7B0 /* btn_normal.png in Resources */,
+				24FB6E031F04FCE600AB5CF4 /* icon.png in Resources */,
+				2454F15E1EFBB31B00E8C7B0 /* LaunchScreen.storyboard in Resources */,
+				24FB6E201F050DA000AB5CF4 /* icon_mindMapping.png in Resources */,
+				2454F1721EFBD3CE00E8C7B0 /* btn_selected.png in Resources */,
+				24BFE21A1F0008900036445F /* launchScreenImg.png in Resources */,
+				24FB6E1E1F050D7A00AB5CF4 /* icon_testPaper.png in Resources */,
+				2454F15B1EFBB31B00E8C7B0 /* Assets.xcassets in Resources */,
+				2454F1591EFBB31B00E8C7B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3755A55A26B34AA87EEBE5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D3EB9B040AB775E554A6AF36 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self-examination/Pods-Self-examination-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE5E4A7FC8CC6BBB1F88830F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Self-examination/Pods-Self-examination-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2454F1471EFBB31B00E8C7B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2454F1791EFBE17F00E8C7B0 /* NSDate+Extension.m in Sources */,
+				2454F1531EFBB31B00E8C7B0 /* AppDelegate.m in Sources */,
+				24FB6E2E1F0523ED00AB5CF4 /* UIAlertController+Extension.m in Sources */,
+				24FB6E311F05335100AB5CF4 /* KIMFileInfoController.m in Sources */,
+				24FB6E281F05103B00AB5CF4 /* KIMReadFileCell.m in Sources */,
+				24FB6E101F04FD3100AB5CF4 /* KIMPlanModel.m in Sources */,
+				24FB6E251F050F0300AB5CF4 /* UIImage+Extension.m in Sources */,
+				2454F1501EFBB31B00E8C7B0 /* main.m in Sources */,
+				24BFE20C1EFF98510036445F /* NSString+Extension.m in Sources */,
+				24FB6E0F1F04FD3100AB5CF4 /* KIMPlanController.m in Sources */,
+				24FB6E151F04FE9B00AB5CF4 /* KIMTabBarController.m in Sources */,
+				24FB6E111F04FD3100AB5CF4 /* KIMSqlManager.m in Sources */,
+				24FB6E1C1F0504AB00AB5CF4 /* KIMBaseRootController.m in Sources */,
+				24FB6E2B1F0510F200AB5CF4 /* KIMReadFileModel.m in Sources */,
+				24FB6E0E1F04FD3100AB5CF4 /* KIMPlanCell.m in Sources */,
+				24FB6E191F0503D100AB5CF4 /* KIMReadFileController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2454F1571EFBB31B00E8C7B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2454F1581EFBB31B00E8C7B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2454F15C1EFBB31B00E8C7B0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2454F15D1EFBB31B00E8C7B0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2454F1601EFBB31B00E8C7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2454F1611EFBB31B00E8C7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2454F1631EFBB31B00E8C7B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1D1EC386BA7686C397597ED /* Pods-Self-examination.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X963RR2PZ3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Self-examination/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "Self-examination/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "milk.Self-examinationt.ss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		2454F1641EFBB31B00E8C7B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98953C95587AE1060AA77C06 /* Pods-Self-examination.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = X963RR2PZ3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Self-examination/Supporting Files/PrefixHeader.pch";
+				INFOPLIST_FILE = "Self-examination/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "milk.Self-examinationt.ss";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2454F1461EFBB31B00E8C7B0 /* Build configuration list for PBXProject "Self-examination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2454F1601EFBB31B00E8C7B0 /* Debug */,
+				2454F1611EFBB31B00E8C7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2454F1621EFBB31B00E8C7B0 /* Build configuration list for PBXNativeTarget "Self-examination" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2454F1631EFBB31B00E8C7B0 /* Debug */,
+				2454F1641EFBB31B00E8C7B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2454F1431EFBB31B00E8C7B0 /* Project object */;
+}
